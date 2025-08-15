@@ -65,5 +65,5 @@ summary_stats.to_csv("data/processed/summary.csv")
 
 # Create and save a simple bar plot
 plt.figure(figsize=(6,4))
-grouped_stats.p_
+grouped_stats.plot
 
