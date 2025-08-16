@@ -1,0 +1,5 @@
+# Ignore local secrets and temp files
+.env
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
