@@ -1,0 +1,10 @@
+- Deploy model behind a versioned REST endpoint with blue/green slots
+- Log every request/response with feature summary stats and prediction score
+- Schedule daily ETL; validate schema hash and null thresholds before load
+- Compute PSI on key features; write to time series store
+- Nightly evaluation: rolling AUC, Brier, calibration slope; persist to dashboard
+- Alerts: Slack pager for ETL failure, AUC<0.62 (2 weeks), PSI>0.2, API error>1%
+- Rollback: switch traffic to previous model tag via toggle; freeze promotions
+- Retraining: weekly cadence or on PSI breach; save artifacts and dataset snapshot
+- Ownership: platform on-call (system), data eng (data), modeling owner (model), product analyst (business)
+- Tracking: incidents in issue tracker with root-cause template

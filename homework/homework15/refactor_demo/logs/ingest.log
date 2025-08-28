@@ -1,0 +1,1 @@
+2025-08-28 12:40:13,881 INFO ingest data/raw_prices.csv -> data/ingested.parquet 200 rows 0.341s

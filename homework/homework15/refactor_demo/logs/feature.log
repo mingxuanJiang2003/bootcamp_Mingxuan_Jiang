@@ -1,0 +1,3 @@
+2025-08-28 12:37:46,477 ERROR missing input
+2025-08-28 12:38:17,653 ERROR missing input
+2025-08-28 12:40:15,390 INFO feature data/clean_prices.csv -> data/features.csv 200 rows 0.023s
